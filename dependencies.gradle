@@ -1,0 +1,21 @@
+//file:noinspection DependencyNotationArgument
+dependencies {
+    // Mods always in-game
+    implementation rfg.deobf("curse.maven:nae2-884359:5380800") // NAE2
+    implementation rfg.deobf("curse.maven:ae2-570458:6302098") //AE2
+
+    // Mods only in code by default
+    compileOnly "curse.maven:chisel-235279:2915375"
+    compileOnly "curse.maven:hwyla-253449:2568751"
+    compileOnly "curse.maven:recipe-stages-280554:3405072"
+    compileOnly "curse.maven:item-stages-280316:2696769"
+    compileOnly "curse.maven:game-stages-268655:2951844"
+    compileOnly "net.darkhax.tesla:Tesla-1.12.2:1.0.63"
+    compileOnly "curse.maven:CoFHCore-69162:2920433"
+    compileOnly "CraftTweaker2:CraftTweaker2-API:4.1.20.684"
+    compileOnly "curse.maven:inventory-tweaks-223094:2482482"
+    compileOnly "curse.maven:inventory-bogo-sorter-632327:4399738"
+    compileOnly rfg.deobf("curse.maven:ctm-267602:2915363") // CTM 1.0.2.31
+    compileOnly rfg.deobf("curse.maven:actually-additions-228404:3117927") // ActuallyAdditions r152
+
+}
